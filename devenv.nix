@@ -8,10 +8,12 @@
 
 {
   packages = [
-    pkgs.pandoc
-    pkgs.typstPackages.showman
+    pkgs.tinymist
+    pkgs.mupdf-headless
+    pkgs.just
   ];
   languages.typst = {
     enable = true;
+    fontPaths = [ "${pkgs.roboto}/share/fonts/truetype" ];
   };
 }

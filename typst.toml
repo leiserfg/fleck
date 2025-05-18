@@ -1,0 +1,7 @@
+[package]
+name = "fleck"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Coffee stains for typst"]
+license = "MIT"
+description = "An example package."
