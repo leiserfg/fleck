@@ -2,6 +2,9 @@
 name = "fleck"
 version = "0.1.0"
 entrypoint = "lib.typ"
-authors = ["Coffee stains for typst"]
+authors = ["Leiser Fernández Gallo"]
+repository = "https://github.com/leiserfg/fleck"
+homepage = "https://github.com/leiserfg/fleck"
 license = "MIT"
-description = "An example package."
+description = "Reimplementation of Latex Coffee Steins in typst"
+keywrods = ["coffee", "stains", "draw"]

@@ -9,7 +9,7 @@ This package provides an essential feature to Typst that has been missing for to
 - two splashes with light colours
 - and a colourful twin splash.
 
-= Usage
+== Usage
 
 To place a coffee stains on a page, use one of the following commands:
 
