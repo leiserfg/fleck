@@ -1,7 +1,0 @@
-Justfile
-devenv.*
-.devenv*
-.envrc
-scripts
-
-

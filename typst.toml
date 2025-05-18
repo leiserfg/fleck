@@ -8,3 +8,4 @@ homepage = "https://github.com/leiserfg/fleck"
 license = "MIT"
 description = "Reimplementation of Latex Coffee Steins in typst"
 keywrods = ["coffee", "stains", "draw"]
+exclude = ["example.pdf", "example.png"]

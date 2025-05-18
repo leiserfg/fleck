@@ -25,7 +25,7 @@ This package provides an essential feature to Typst that has been missing for to
 
 
 Example 
-![Example](./example.png)
+![Example](https://github.com/leiserfg/fleck/blob/master/example.png?raw=true)
 
 
 Based on:
