@@ -1,0 +1,7 @@
+Justfile
+devenv.*
+.*
+scripts
+*.png
+*.pdf
+

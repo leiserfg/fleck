@@ -8,8 +8,8 @@
   scale: auto,
 ) = {
   assert(
-    ("A", "B", "C", "D").contains(which),
-    message: "Unknown stain, should be one of 'A', 'B', 'C', and 'D'",
+    ("a", "b", "c", "d").contains(which),
+    message: "unknown stain, should be one of 'a', 'b', 'c', and 'd'",
   )
   opacity = calc.clamp(float(opacity), 0, 1)
   let svg = read("./assets/stains_x.svg".replace("x", which)).replace(
@@ -20,10 +20,10 @@
   place(where, rotate(angle, image(bytes(svg), width: auto, height: scale)), dx: dx, dy: dy)
 }
 
-#let coffeA = coffe.with("A")
-#let coffeB = coffe.with("B")
-#let coffeC = coffe.with("C")
-#let coffeD = coffe.with("D")
+#let coffe-a = coffe.with("a")
+#let coffe-b = coffe.with("b")
+#let coffe-c = coffe.with("c")
+#let coffe-d = coffe.with("d")
 
 
 
