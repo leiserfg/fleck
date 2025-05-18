@@ -1,4 +1,4 @@
-#let coffe(
+#let coffee(
   which,
   where: center + horizon,
   opacity: 100%,
@@ -20,10 +20,10 @@
   place(where, rotate(angle, image(bytes(svg), width: auto, height: scale)), dx: dx, dy: dy)
 }
 
-#let coffe-a = coffe.with("a")
-#let coffe-b = coffe.with("b")
-#let coffe-c = coffe.with("c")
-#let coffe-d = coffe.with("d")
+#let coffee-a = coffee.with("a")
+#let coffee-b = coffee.with("b")
+#let coffee-c = coffee.with("c")
+#let coffee-d = coffee.with("d")
 
 
 
