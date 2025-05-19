@@ -5,6 +5,6 @@ entrypoint = "lib.typ"
 authors = ["Leiser Fernández Gallo"]
 repository = "https://github.com/leiserfg/fleck"
 license = "MIT"
-description = "Reimplementation of Latex Coffee Steins in typst"
+description = "Reimplementation of Latex Coffee Stains in typst"
 keywords = ["coffee", "stains", "draw"]
 exclude = ["example.typ"]

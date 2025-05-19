@@ -16,11 +16,10 @@ This package provides an essential feature to Typst that has been missing for to
 ```typst
 #import "@preview/fleck:0.1.0": *
 
-
-#coffeA(angle: 95deg, dy: 10pt, scale: 10%)
-#coffeB(where: top, angle: 95deg, opacity: 50%)
-#coffeC(where: bottom + left, dx: 10% + 5pt)
-#coffeD(where: right + top, angle: 95deg, opacity: 50%)
+#coffee-a(angle: 95deg, dy: 10pt, scale: 10%)
+#coffee-b(where: top, angle: 95deg, opacity: 50%)
+#coffee-c(where: bottom + left, dx: 10% + 5pt)
+#coffee-d(where: right + top, angle: 95deg, opacity: 50%)
 ```
 
 
